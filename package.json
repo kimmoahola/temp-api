@@ -1,0 +1,32 @@
+{
+  "name": "temp-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/index.js",
+  "scripts": {
+    "start": "npm run build && node build/index.js",
+    "build": "node ./node_modules/typescript/lib/tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/termopetteri/temp-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/termopetteri/temp-api/issues"
+  },
+  "homepage": "https://github.com/termopetteri/temp-api#readme",
+  "dependencies": {
+    "restify": "^5.2.0",
+    "restify-errors": "^5.0.0",
+    "sqlite3": "^3.1.11"
+  },
+  "devDependencies": {
+    "@types/node": "^8.0.28",
+    "@types/restify": "^5.0.3",
+    "@types/restify-errors": "^4.3.2",
+    "@types/sqlite3": "^3.1.1",
+    "typescript": "^2.5.2"
+  }
+}
